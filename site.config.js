@@ -12,14 +12,15 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `optimopium-log`,
+      href: "https://github.com/optimopium/optimopium.github.io",
     },
   ],
   // blog setting (required)
   blog: {
     title: "optimopium-log",
     description: "I've created this space to share my thoughts, insights, and findings with the world. Here, you'll find a curated collection of my studies and musings, neatly organized for easy access.",
+    theme: "auto",
   },
 
   // CONFIG configration (required)
@@ -58,7 +59,8 @@ const CONFIG = {
     enable: false,
     config: {
       repo: "optimopium/optimopium.github.io",
-      label: "utterances"
+      "issue-term": "og:title",
+      label: "utterances",
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
