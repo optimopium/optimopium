@@ -24,7 +24,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://optimopium.github.io.vercel.app",
   since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -58,6 +58,7 @@ const CONFIG = {
   cusdis: {
     enable: false,
     config: {
+      host: "",
       repo: "optimopium/optimopium.github.io",
       "issue-term": "og:title",
       label: "utterances",
