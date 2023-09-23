@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "optimopium-log",
+    title: "Optimopium Blog",
     description: "I've created this space to share my thoughts, insights, and findings with the world. Here, you'll find a curated collection of my studies and musings, neatly organized for easy access.",
     theme: "auto",
   },
@@ -50,7 +50,7 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "optimopium/optimopium",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
@@ -60,9 +60,6 @@ const CONFIG = {
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
-      repo: "optimopium/optimopium",
-      "issue-term": "og:title",
-      label: "💬 Utterances",
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
