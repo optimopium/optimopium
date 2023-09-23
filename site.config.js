@@ -48,7 +48,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: "optimopium/optimopium",
       "issue-term": "og:title",
