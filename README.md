@@ -2,8 +2,6 @@
 
 I'm a passionate data scientist with a penchant for exploring the world of Artificial Intelligence and Machine Learning. Welcome to my GitHub profile, where I love to share my projects, code snippets, and insights from my data-driven adventures.
 
-🌐 **My Blog**: [Visit My Blog](https://optimopium.vercel.app/)
-
 📚 **What You'll Find Here**:
    - **Data Science Projects**: I enjoy working on a wide range of data science projects, from predictive modeling to natural language processing. You'll find my code, datasets, and explanations here.
    - **Machine Learning Algorithms**: I love to experiment with ML algorithms and share my findings.
